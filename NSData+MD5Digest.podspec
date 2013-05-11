@@ -8,5 +8,5 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'git://github.com/layervault/NSData-MD5.git', :tag => '1.0.0' }
   s.requires_arc = true
   s.source_files = 'NSData+MD5Digest/NSData+MD5Digest.{h,m}'
-  s.clean_paths  = "NSData+MD5Digest.xcodeproj"
+  s.preserve_paths  = "NSData+MD5Digest.xcodeproj"
 end
