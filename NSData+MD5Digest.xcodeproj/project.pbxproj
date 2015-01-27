@@ -212,10 +212,12 @@
 		54CB27A5157DD1FC00FBCF13 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NSData+MD5Digest/NSData+MD5Digest-Prefix.pch";
 				INFOPLIST_FILE = "NSData+MD5Digest/NSData+MD5Digest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
 				PRODUCT_NAME = "NSData+MD5Digest";
 				WRAPPER_EXTENSION = app;
 			};
@@ -224,10 +226,12 @@
 		54CB27A6157DD1FC00FBCF13 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NSData+MD5Digest/NSData+MD5Digest-Prefix.pch";
 				INFOPLIST_FILE = "NSData+MD5Digest/NSData+MD5Digest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
 				PRODUCT_NAME = "NSData+MD5Digest";
 				WRAPPER_EXTENSION = app;
 			};
